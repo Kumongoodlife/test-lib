@@ -1,0 +1,19 @@
+{
+    "name": "kumongoodlife/test-lib",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Kumongoodlife",
+            "email": "kumongoodlife@gmail.com"
+        }
+    ],
+    "require": {
+        "4kizuki/php-enum": "^1.1"
+    },
+    "autoload": {
+      "psr-4": {
+        "Kumon\\TestLib\\": "src/"
+      }
+    }
+}
